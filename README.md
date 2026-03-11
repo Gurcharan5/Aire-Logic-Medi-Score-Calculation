@@ -16,7 +16,7 @@ This project has been coded using Python. The main function of the program (air 
 
 ## time_bonus.py
 - To compare two results, the user will have to input an old score, the time the old score was taken as well as the new score and the time the new score was taken. The two times are then compared and if the difference is under 24 hours, the function tests to see if there was a large fluctuation.
-- In a real world scenario, this would most likely be run alongside the `main.py` and would be saved alongside the current side in a database. When the user clicks submit, `time_bonus.py` would be improved to take the current time, then be automatically run to flag any issues.
+- In a real world scenario, this would most likely be run alongside the `main.py` and would be saved alongside the current time in a database. When the user clicks submit, `time_bonus.py` would be improved to take the current time, then be automatically run to flag any issues depending on the time of the previous record. This functionality has been tested within `user_interact.py` where it asks for the previous Medi score and time and compares it to the new Medi score and current time.
 
 ## tests.py
 - Within this program, I run tests on my functions which includes correct cases and incorrect cases. The purpose of this is to demonstrate the input sanitisation within each function and to show the program will not break if the user gives an invalid input.

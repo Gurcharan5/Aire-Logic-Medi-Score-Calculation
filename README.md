@@ -29,4 +29,4 @@ This project has been coded using Python. The main function of the program (air 
 # Other Implementations
 - Another way to develop this function could also be to include a class. In a case where there is more than just the final medi score needing to be saved, storing patients as a class would be a better implementation.
 - Using a class would remove the `patient_values` array list and would require implementation of get methods.
-
+- Having a GUI interface would also remove the need for input sanitisation as you would be able to implement drop down menus for the enums, and limit the other fields to just integer / float inputs. This would help clean up the code and remove redundant code.

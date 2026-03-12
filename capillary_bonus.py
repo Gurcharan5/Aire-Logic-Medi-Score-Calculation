@@ -29,7 +29,7 @@ def check_capillary_blood_glucose(bloodGlucose, period):
                 return 2
             else:
                 return 3
-        elif period == "2-hour":
+        elif period == "2-hours":
             if (5.9 <= bloodGlucose <= 7.8):
                 return 0
             elif (4.5 <= bloodGlucose <= 5.8) or (7.9 <= bloodGlucose <= 8.9):

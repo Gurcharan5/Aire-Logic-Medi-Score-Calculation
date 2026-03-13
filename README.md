@@ -32,6 +32,6 @@ This project has been coded using Python. The main function of the program (air 
 - Having a GUI interface would also remove the need for input sanitisation as you would be able to implement drop down menus for the enums, and limit the other fields to just integer / float inputs. This would help clean up the code and remove redundant code.
 
 # Limitations in Solution
-- Due to the table being incomplete for the spO2% on the left side of 0 and not specifying whether it related to oxygen or air, I made the assumption that values 87% for both air and oxygen have the same medi score value.
+- Due to the table being incomplete for the spO2% on the left side of 0 and not specifying whether it related to oxygen or air, I made the assumption that values below 87% for both air and oxygen have the same medi score value.
 - In the capillary blood glucose bonus section, 4.5 for CBG (2 hours after fasting) has both scores 2 and 3. In my code I made the assumption that 4.5 gives a value of 2 and values lower is 3.
 
